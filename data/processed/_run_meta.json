@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2025-12-22T16:59:41.737503+00:00",
+  "rows": {
+    "orders": 5,
+    "users": 4
+  },
+  "outputs": {
+    "orders": "C:\\Users\\w\\Documents\\my_csv_project\\week2-data-work\\data\\processed\\orders.parquet",
+    "users": "C:\\Users\\w\\Documents\\my_csv_project\\week2-data-work\\data\\processed\\users.parquet"
+  }
+}

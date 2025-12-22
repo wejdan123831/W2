@@ -17,6 +17,7 @@ def read_users_csv(path: Path) -> pd.DataFrame:
  na_values=NA,
  keep_default_na=True,
  )
+ 
 def write_parquet(df: pd.DataFrame, path: Path) -> None:
  path.parent.mkdir(parents=True, exist_ok=True)
  df.to_parquet(path, index=False)
