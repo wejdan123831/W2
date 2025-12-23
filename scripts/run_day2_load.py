@@ -57,6 +57,7 @@ def main() -> None:
     # convert amount and quantity to float 
     orders = enforce_schema(orders_raw)
     
+    
     # missing values report 
     rep = missingness_report(orders)
     reports_dir = ROOT / "reports"
