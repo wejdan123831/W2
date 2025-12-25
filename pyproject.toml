@@ -6,8 +6,12 @@ build-backend = "setuptools.build_meta"
 name = "bootcamp_data"
 version = "0.1.0"
 dependencies = [
+    "kaleido>=1.2.0",
+    "matplotlib>=3.10.8",
     "pandas",
+    "plotly>=6.5.0",
     "pyarrow",
+    "seaborn>=0.13.2",
 ]
 
 [tool.setuptools.packages.find]
